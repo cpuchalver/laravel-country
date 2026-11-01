@@ -1,0 +1,70 @@
+[
+    {
+        "names": { "common": "Brazil" },
+        "codes": { "alpha_2": "BR", "alpha_3": "BRA", "ccn3": "076" },
+        "region": "Americas",
+        "capitals": [
+            { "name": "Brasília", "coordinates": { "lat": -15.79, "lng": -47.88 }, "attributes": { "primary": true } }
+        ],
+        "calling_codes": ["55"],
+        "flag": { "emoji": "🇧🇷", "url_png": "https://flags.restcountries.com/v5/w320/br.png", "url_svg": "https://flags.restcountries.com/v5/svg/br.svg" }
+    },
+    {
+        "names": { "common": "France" },
+        "codes": { "alpha_2": "FR", "alpha_3": "FRA", "ccn3": "250" },
+        "region": "Europe",
+        "capitals": [
+            { "name": "Paris", "coordinates": { "lat": 48.86, "lng": 2.35 }, "attributes": { "primary": true } }
+        ],
+        "calling_codes": ["33"],
+        "flag": { "emoji": "🇫🇷", "url_png": "https://flags.restcountries.com/v5/w320/fr.png", "url_svg": "https://flags.restcountries.com/v5/svg/fr.svg" }
+    },
+    {
+        "names": { "common": "Germany" },
+        "codes": { "alpha_2": "DE", "alpha_3": "DEU", "ccn3": "276" },
+        "region": "Europe",
+        "capitals": [
+            { "name": "Berlin", "coordinates": { "lat": 52.52, "lng": 13.4 }, "attributes": { "primary": true } }
+        ],
+        "calling_codes": ["49"],
+        "flag": { "emoji": "🇩🇪", "url_png": "https://flags.restcountries.com/v5/w320/de.png", "url_svg": "https://flags.restcountries.com/v5/svg/de.svg" }
+    },
+    {
+        "names": { "common": "Japan" },
+        "codes": { "alpha_2": "JP", "alpha_3": "JPN", "ccn3": "392" },
+        "region": "Asia",
+        "capitals": [
+            { "name": "Tokyo", "coordinates": { "lat": 35.68, "lng": 139.69 }, "attributes": { "primary": true } }
+        ],
+        "calling_codes": ["81"],
+        "flag": { "emoji": "🇯🇵", "url_png": "https://flags.restcountries.com/v5/w320/jp.png", "url_svg": "https://flags.restcountries.com/v5/svg/jp.svg" }
+    },
+    {
+        "names": { "common": "South Africa" },
+        "codes": { "alpha_2": "ZA", "alpha_3": "ZAF", "ccn3": "710" },
+        "region": "Africa",
+        "capitals": [
+            { "name": "Bloemfontein", "attributes": { "judicial": true } },
+            { "name": "Pretoria", "attributes": { "executive": true, "primary": true } },
+            { "name": "Cape Town", "attributes": { "legislative": true } }
+        ],
+        "calling_codes": ["27"],
+        "flag": { "emoji": "🇿🇦", "url_png": "https://flags.restcountries.com/v5/w320/za.png", "url_svg": "https://flags.restcountries.com/v5/svg/za.svg" }
+    },
+    {
+        "names": { "common": "Antarctica" },
+        "codes": { "alpha_2": "AQ", "alpha_3": "ATA", "ccn3": "010" },
+        "region": "Antarctic",
+        "capitals": [],
+        "calling_codes": [],
+        "flag": { "emoji": "🇦🇶", "url_png": "https://flags.restcountries.com/v5/w320/aq.png", "url_svg": "https://flags.restcountries.com/v5/svg/aq.svg" }
+    },
+    {
+        "names": { "common": "Kosovo" },
+        "codes": { "alpha_3": "UNK" },
+        "region": "Europe",
+        "capitals": [{ "name": "Pristina", "attributes": { "primary": true } }],
+        "calling_codes": ["383"],
+        "flag": { "emoji": "🇽🇰" }
+    }
+]

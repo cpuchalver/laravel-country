@@ -1,0 +1,52 @@
+{
+    "name": "cpuchalver/laravel-country",
+    "description": "Country model, migration, seeder and Artisan commands for Laravel, synchronized from the REST Countries API (v5).",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "country", "countries", "iso-3166", "restcountries", "seeder"],
+    "authors": [
+        {
+            "name": "cpuchalver",
+            "email": "cedric@cpuch.net"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/console": "^12.0|^13.0",
+        "illuminate/database": "^12.0|^13.0",
+        "illuminate/http": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cpuchalver\\LaravelCountry\\": "src/",
+            "Cpuchalver\\LaravelCountry\\Database\\Factories\\": "database/factories/",
+            "Cpuchalver\\LaravelCountry\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cpuchalver\\LaravelCountry\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cpuchalver\\LaravelCountry\\CountryServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
